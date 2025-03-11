@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Bootstrap-Accordion/static/css/main.81f39930.css",
+    "main.js": "/React-Bootstrap-Accordion/static/js/main.daeca6cc.js",
+    "index.html": "/React-Bootstrap-Accordion/index.html",
+    "main.81f39930.css.map": "/React-Bootstrap-Accordion/static/css/main.81f39930.css.map",
+    "main.daeca6cc.js.map": "/React-Bootstrap-Accordion/static/js/main.daeca6cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81f39930.css",
+    "static/js/main.daeca6cc.js"
+  ]
+}

@@ -1,0 +1,23 @@
+.accordion .card {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 0px solid whitesmoke;
+    cursor: pointer;
+    background-color: rgb(200, 150, 100);
+  }
+  div[class=”card-header”] .accordion-arrow {
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  div[class~=”show”] + div[class=”card-header”] .accordion-arrow {
+    transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+  }
